@@ -23,6 +23,8 @@ export function DashboardNav() {
       if (storedUser) {
         setUser(JSON.parse(storedUser));
       }
+
+      
     }
   }, [pathname]);
 
