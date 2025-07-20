@@ -16,13 +16,14 @@ export default function Home() {
             <nav className="flex items-center space-x-2">
               <ModeToggle />
               <Link href="/login">
+
                 <Button variant="ghost">Log in</Button>
               </Link>
               <Link href="/signup">
                 <Button>Sign up</Button>
               </Link>
             </nav>
-          </div>
+          </div>v
         </div>
       </header>
 
