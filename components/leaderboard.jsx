@@ -12,12 +12,9 @@ export function Leaderboard() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Mock leaderboard data instead of fetching from API
     const getMockLeaderboard = () => {
       try {
         setLoading(true);
-
-        // Create mock leaderboard data
         const mockLeaderboard = [
           {
             id: '1',
