@@ -43,5 +43,5 @@ export function AuthCheck({ children }) {
     );
   }
 
-  return children;
+  return children ;
 }
