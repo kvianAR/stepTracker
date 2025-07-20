@@ -17,6 +17,7 @@ export function AuthCheck({ children }) {
       if (pathname === '/dashboard/demo') {
         setIsLoading(false);
         return;
+        
       }
       
       if (!user && pathname.startsWith('/dashboard')) {
